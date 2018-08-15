@@ -4,7 +4,7 @@
 #
 Name     : sphinxcontrib-apidoc
 Version  : 0.2.1
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/02/3f/1d8d5682e57716e621b888c8a266f04a8df88ee9ee39daca3c95ad773c9b/sphinxcontrib-apidoc-0.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/02/3f/1d8d5682e57716e621b888c8a266f04a8df88ee9ee39daca3c95ad773c9b/sphinxcontrib-apidoc-0.2.1.tar.gz
 Summary  : A Sphinx extension for running 'sphinx-apidoc' on each build
@@ -56,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1534341474
+export SOURCE_DATE_EPOCH=1534341532
 python3 setup.py build -b py3
 
 %install
