@@ -1,6 +1,21 @@
 CHANGES
 =======
 
+0.3.0
+-----
+
+* tests: Test 'apidoc\_extra\_args' option
+* tests: Add advanced\_negative test
+* tests: Add tests for additional flags
+* tests: Check for source files also
+* Ensure '--tocfile' isn't configured for Sphinx < 1.8
+* Support more configuration options
+* fix the dist name used to get the version after installation
+* trivial: Fix style issues
+* setup.cfg: Remove dead '[global] setup-hooks' configuration
+* travis: Use build stages
+* setup.cfg: Update homepage
+
 0.2.1
 -----
 
