@@ -4,7 +4,7 @@
 #
 Name     : sphinxcontrib-apidoc
 Version  : 0.3.0
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/57/55/23f6919551a5e0a824f0effc3a85dd1cbc8df225196c0f6b82c7cea38299/sphinxcontrib-apidoc-0.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/57/55/23f6919551a5e0a824f0effc3a85dd1cbc8df225196c0f6b82c7cea38299/sphinxcontrib-apidoc-0.3.0.tar.gz
 Summary  : A Sphinx extension for running 'sphinx-apidoc' on each build
@@ -19,8 +19,11 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pbr
 
 %description
+====================
 sphinxcontrib-apidoc
-        ====================
+====================
+.. image:: https://travis-ci.org/sphinx-contrib/apidoc.svg?branch=master
+:target: https://travis-ci.org/sphinx-contrib/apidoc
 
 %package license
 Summary: license components for the sphinxcontrib-apidoc package.
@@ -56,7 +59,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1541278568
+export SOURCE_DATE_EPOCH=1551037713
+export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
 %install
