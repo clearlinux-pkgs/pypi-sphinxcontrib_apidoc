@@ -4,7 +4,7 @@
 #
 Name     : sphinxcontrib-apidoc
 Version  : 0.3.0
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/57/55/23f6919551a5e0a824f0effc3a85dd1cbc8df225196c0f6b82c7cea38299/sphinxcontrib-apidoc-0.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/57/55/23f6919551a5e0a824f0effc3a85dd1cbc8df225196c0f6b82c7cea38299/sphinxcontrib-apidoc-0.3.0.tar.gz
 Summary  : A Sphinx extension for running 'sphinx-apidoc' on each build
@@ -13,11 +13,9 @@ License  : BSD-2-Clause
 Requires: sphinxcontrib-apidoc-license = %{version}-%{release}
 Requires: sphinxcontrib-apidoc-python = %{version}-%{release}
 Requires: sphinxcontrib-apidoc-python3 = %{version}-%{release}
-Requires: Sphinx
-Requires: pbr
-BuildRequires : Sphinx
 BuildRequires : buildreq-distutils3
-BuildRequires : pbr
+BuildRequires : pypi(pbr)
+BuildRequires : pypi(sphinx)
 
 %description
 sphinxcontrib-apidoc
@@ -61,11 +59,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583697008
+export SOURCE_DATE_EPOCH=1641429047
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
-export FCFLAGS="$CFLAGS -fno-lto "
-export FFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$FFLAGS -fno-lto "
+export FFLAGS="$FFLAGS -fno-lto "
 export CXXFLAGS="$CXXFLAGS -fno-lto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
