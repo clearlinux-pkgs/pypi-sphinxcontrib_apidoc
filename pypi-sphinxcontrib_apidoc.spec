@@ -4,7 +4,7 @@
 #
 Name     : pypi-sphinxcontrib_apidoc
 Version  : 0.3.0
-Release  : 30
+Release  : 31
 URL      : https://files.pythonhosted.org/packages/57/55/23f6919551a5e0a824f0effc3a85dd1cbc8df225196c0f6b82c7cea38299/sphinxcontrib-apidoc-0.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/57/55/23f6919551a5e0a824f0effc3a85dd1cbc8df225196c0f6b82c7cea38299/sphinxcontrib-apidoc-0.3.0.tar.gz
 Summary  : A Sphinx extension for running 'sphinx-apidoc' on each build
@@ -62,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656372070
+export SOURCE_DATE_EPOCH=1656408872
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
