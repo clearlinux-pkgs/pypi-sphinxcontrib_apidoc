@@ -7,7 +7,7 @@
 #
 Name     : pypi-sphinxcontrib_apidoc
 Version  : 0.5.0
-Release  : 41
+Release  : 42
 URL      : https://files.pythonhosted.org/packages/52/8c/a4fe93b51a1026c217731337cfe50569b8521d3e254dd451126bed208cd8/sphinxcontrib-apidoc-0.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/52/8c/a4fe93b51a1026c217731337cfe50569b8521d3e254dd451126bed208cd8/sphinxcontrib-apidoc-0.5.0.tar.gz
 Summary  : A Sphinx extension for running 'sphinx-apidoc' on each build
